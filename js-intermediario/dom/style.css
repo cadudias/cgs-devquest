@@ -1,0 +1,20 @@
+.texto {
+    margin-left: 20px;
+}
+
+.esconder .texto {
+    display: none;
+}
+
+.item-toggle {
+    background-color: #2F3437;
+    padding: 10px;
+    border: 1px solid #ccc;
+    color: white;
+}
+
+.item-toggle:hover {
+    color: black;
+    background-color: aquamarine;
+    cursor: pointer;
+}
