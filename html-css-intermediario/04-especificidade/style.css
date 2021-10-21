@@ -3,47 +3,30 @@
   background-color: aqua;
 }
 
-/*
 .container-cascata {
   background-color: orange;
-} */
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
+}
 
 
 /* ------- Especificidade --------- */
 
-p {
-  background-color: lightskyblue;
+
+
+#meu-paragrafo {
+  background-color: violet;
 }
 
-/* .container-especificidade p {
-  background-color: chartreuse;
-} */
 
-/* #meu-paragrafo {
-  background-color: violet;
-} */
+.container-especificidade p {
+  background-color: chartreuse;
+}
+
+/* menor nivel de especificidade */
+p {
+  background-color: lightskyblue !important;
+}
+
+/* alterando a ordem desse seletor pra antes do p ele deveria aplicar a cor do p seguindo o efeito cascata 
+mas não é isso que acontece
+*/
 
