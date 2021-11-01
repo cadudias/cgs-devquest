@@ -9,11 +9,11 @@ async function getUser(user){
 }
 
 const setProfileData = (data) => {    
-    profile_image.src = data.avatar_url ? data.avatar_url : 'Não possui'
-    profile_name.innerHTML = data.name ? data.name : 'Não possui'
+    profile_image.src = data.avatar_url ?? 'Não possui'
+    profile_name.innerHTML = data.name ?? 'Não possui'
     profile_description.innerHTML = data.bio ?? 'Não possui'
     profile_username.innerHTML = data.login ?? 'Não possui'
 }
 
-const result = getUser('roberto-hofstetter')
+const result = getUser('cadudias')
 result.then(data => setProfileData(data))
