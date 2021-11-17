@@ -1,0 +1,189 @@
+@import url("https://fonts.googleapis.com/css2?family=Public+Sans:wght@300;400;800&display=swap");
+
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: "Public Sans", sans-serif;
+  color: black;
+}
+
+header.cabecalho {
+  overflow: hidden;
+  background-color: white;
+  padding: 38px 55px;
+}
+
+.logo,
+.logo a,
+.logo img,
+.logo h1 {
+  float: left;
+}
+
+.logo h1 {
+  line-height: 40px;
+  font-size: 20px;
+  color: black;
+}
+
+.menu a {
+  color: black;
+  text-align: left;
+  text-decoration: none;
+  font-size: 15px;
+  line-height: 18px;
+  border-radius: 0px;
+}
+
+.menu {
+  float: left;
+}
+
+.right-content {
+  float: right;
+}
+
+.menu ul {
+  float: right;
+  padding: 0;
+  margin: 0;
+}
+
+.menu ul li {
+  list-style: none;
+  display: inline-block;
+}
+
+.menu ul li a {
+  display: block;
+  width: 100%;
+  text-align: center;
+  padding: 10px;
+}
+
+.menu ul a:hover {
+  background-color: #5bc241;
+  color: white;
+}
+
+.menu ul a.active {
+  background-color: #5bc241;
+  color: white;
+}
+
+header .btn {
+  background-color: #5bc241;
+  border: none;
+  color: white;
+  padding: 12px;
+  text-align: center;
+  text-decoration: none;
+  font-size: 15px;
+  border-radius: 10px;
+  float: left;
+  TOP: 12px;
+  position: relative;
+}
+
+
+@media screen and (max-width: 810px) {
+  .logo {
+    width: 100%;
+    text-align: center;
+    margin-bottom: 20px;
+  }
+
+  .logo h1 {
+    float: right;
+  }
+
+  .logo a, .logo img {
+    float: none;
+    display: inline-block;
+  }
+
+  .right-content {
+    width: 70%;
+    float: none;
+    margin: 0 auto;
+  }
+
+  .menu, .menu ul {
+    float: none;
+  }
+
+  .menu ul li {
+    width: 100%;
+    margin-bottom: 10px;
+  }
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/* Responsividade */
+/* @media screen and (max-width: 810px) {
+  .logo {
+    width: 100%;
+    text-align: center;
+    margin-bottom: 60px;
+  }
+
+  .logo h1 {
+    float: right;
+    font-size: 40px;
+  }
+
+  .logo a,
+  .logo img {
+    float: none;
+    display: inline-block;
+  }
+
+  .menu,
+  ul {
+    float: none;
+  }
+
+  .menu ul li {
+    width: 100%;
+    margin-bottom: 20px;
+  }
+
+  .menu ul li a {
+    font-size: 40px;
+    padding: 20px;
+  }
+} */
